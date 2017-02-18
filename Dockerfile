@@ -1,2 +1,3 @@
-FROM tutum/jboss:latest
-ADD target/hello-angular.war /opt/jboss/wildfly/standalone/deployments/
+FROM jboss/wildfly
+ADD target/ubank-angular.war /opt/jboss/wildfly/standalone/deployments/
+
