@@ -4,7 +4,7 @@
   <groupId>fr.jasmineconseil</groupId>
   <artifactId>ubank-angular</artifactId>
   <version>1.0.0</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <build>
     <finalName>ubank-angular</finalName>
   </build>
