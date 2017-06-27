@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>fr.jasmineconseil</groupId>
   <artifactId>ubank-angular</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.3</version>
   <packaging>jar</packaging>
   <build>
     <finalName>ubank-angular</finalName>
@@ -68,4 +68,12 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+  
+  <distributionManagement>
+    <repository>
+      <id>www.dcm4che.org</id>
+      <name>dcm4che Repository</name>
+      <url>scp://www.dcm4che.org:443/home/maven2</url>
+    </repository>
+</distributionManagement>
 </project>
